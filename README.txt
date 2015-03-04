@@ -10,10 +10,6 @@
     local copy of the git repository
 [pathToGitRepo] is the path of the local copy of the git repository
 
-*** after running the above command, go to the artifact directory of your local
-    maven repository (i.e., [pathToGitRepo]/[groupId]/[artifactId]) and rename
-    the maven-metadata-local files that are generated to remove the local part.
-
 *** add all files to the git repository and commit to the public remote
     repository
 
